@@ -59,6 +59,10 @@ public class CarrinhoDeCompras {
         System.out.println(itens.calculaValorTotal());
         System.out.println(itens.exibirItems());
 
+        itens.removerItem("Café Melita");
+
+        System.out.println(itens.calculaValorTotal());
+        System.out.println(itens.exibirItems());
     }
 }
 
